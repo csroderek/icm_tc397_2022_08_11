@@ -1,0 +1,26 @@
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.17.3
+  created: 08/11/22, 09:06:00
+
+----------------------------------------------------------
+
+Windows version:
+  Win8 ()
+  Admin: yes
+
+UDE version:
+  Release:  5.00.05
+  Build:    15447
+  Path:     C:\Program Files (x86)\pls\UDE 5.0
+
+Target configuration file:
+  C:\Users\Litao\htc-workspace\icm_tc397_2022_08_11\UDE\AppKit_TC39xB_dap.cfg
+
+Error messages:
+  Tc2CoreTargIntf: Can't connect target !
+  Tc2CoreTargIntf: Can't determine the default communication device !
+Current selection is ambiguous !
+
+

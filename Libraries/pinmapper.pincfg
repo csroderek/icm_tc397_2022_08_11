@@ -1,0 +1,218 @@
+<v1:pinSettings xmlns:v1="http://www.tasking.com/schema/pinsettings/v1.1">
+  <v1:pinMappingsRef version="1.3" file="platform:/plugin/com.tasking.pinmapper.input.aurix/etc/TC39xB_pinmappings.xml"/>
+  <v1:deviceSetting id="tc39xedb" pattern="TC397* B">
+    <v1:packageSetting id="lfbga292"/>
+  </v1:deviceSetting>
+  <v1:configSetting configurationId="p14_5.in.bind" altId="p14_5.in.bind.in">
+    <v1:connectionSetting altId="evr33.en.bind.en"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p14_2.in.bind" altId="p14_2.in.bind.in">
+    <v1:connectionSetting altId="evrc.en.bind.en"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="pms.hwcfg5.bind" altId="pms.hwcfg5.bind.hwcfg5">
+    <v1:connectionSetting altId="p10_6.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="pms.testmode.bind" altId="pms.testmode.bind.testmode">
+    <v1:connectionSetting altId="p20_2.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_6.in.bind" altId="p10_6.in.bind.in">
+    <v1:connectionSetting altId="pms.hwcfg5.bind.hwcfg5"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p20_2.in.bind" altId="p20_2.in.bind.in">
+    <v1:connectionSetting altId="pms.testmode.bind.testmode"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_5.in.bind" altId="p10_5.in.bind.in">
+    <v1:connectionSetting altId="pms.hwcfg4.bind.hwcfg4"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="pms.porst.bind" altId="pms.porst.bind.porst">
+    <v1:connectionSetting altId="porst_n.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="pms.hwcfg4.bind" altId="pms.hwcfg4.bind.hwcfg4">
+    <v1:connectionSetting altId="p10_5.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="evr33.en.bind" altId="evr33.en.bind.en">
+    <v1:connectionSetting altId="p14_5.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="porst_n.in.bind" altId="porst_n.in.bind.in">
+    <v1:connectionSetting altId="pms.porst.bind.porst"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="evrc.en.bind" altId="evrc.en.bind.en">
+    <v1:connectionSetting altId="p14_2.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p14_4.in.bind" altId="p14_4.in.bind.in">
+    <v1:connectionSetting altId="pms.hwcfg6.bind.hwcfg6"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="pms.hwcfg6.bind" altId="pms.hwcfg6.bind.hwcfg6">
+    <v1:connectionSetting altId="p14_4.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p00_2.dir" altId="p00_2.dir.out"/>
+  <v1:configSetting configurationId="p01_4.dir" altId="p01_4.dir.out"/>
+  <v1:configSetting configurationId="tout11.out.bind" altId="tout11.out.bind.out">
+    <v1:connectionSetting altId="p00_2.out.bind.alt1"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p01_7.out.bind" altId="p01_7.out.bind.alt4">
+    <v1:connectionSetting altId="qspi3_m.clk.bind.clk"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi3_m.txd.bind" altId="qspi3_m.txd.bind.out">
+    <v1:connectionSetting altId="p01_6.out.bind.alt4"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p00_10.out.bind" altId="p00_10.out.bind.alt1">
+    <v1:connectionSetting altId="tout19.out.bind.out"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p01_4.out.bind" altId="p01_4.out.bind.alt4">
+    <v1:connectionSetting altId="qspi3_m.sel10.bind.sel10"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p00_10.dir" altId="p00_10.dir.out"/>
+  <v1:configSetting configurationId="qspi3_m.clk.bind" altId="qspi3_m.clk.bind.clk">
+    <v1:connectionSetting altId="p01_7.out.bind.alt4"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p01_4.function" altId="p01_4.function.digital"/>
+  <v1:configSetting configurationId="qspi3_m.sel10.bind" altId="qspi3_m.sel10.bind.sel10">
+    <v1:connectionSetting altId="p01_4.out.bind.alt4"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p01_6.dir" altId="p01_6.dir.out"/>
+  <v1:configSetting configurationId="qspi3_m.rxdn.bind" altId="qspi3_m.rxdn.bind.rxd2">
+    <v1:connectionSetting altId="p01_5.in.bind.in"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p01_6.out.bind" altId="p01_6.out.bind.alt4">
+    <v1:connectionSetting altId="qspi3_m.txd.bind.out"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi3_m.sel6.bind" altId="qspi3_m.sel6.bind.none"/>
+  <v1:configSetting configurationId="p00_2.out.bind" altId="p00_2.out.bind.alt1">
+    <v1:connectionSetting altId="tout11.out.bind.out"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="tout19.out.bind" altId="tout19.out.bind.out">
+    <v1:connectionSetting altId="p00_10.out.bind.alt1"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi3_m.sel3.bind" altId="qspi3_m.sel3.bind.none"/>
+  <v1:configSetting configurationId="qspi3_m.sel7.bind" altId="qspi3_m.sel7.bind.none"/>
+  <v1:configSetting configurationId="p01_7.dir" altId="p01_7.dir.out"/>
+  <v1:configSetting configurationId="p01_5.in.bind" altId="p01_5.in.bind.in">
+    <v1:connectionSetting altId="qspi3_m.rxdn.bind.rxd2"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p01_4.symbolicname" value="QSPI3_M_SEL10"/>
+  <v1:propertySetting propertyId="p01_7.symbolicname" value="QSPI3_M_CLK"/>
+  <v1:propertySetting propertyId="p00_10.symbolicname" value="TOUT19_OUT"/>
+  <v1:propertySetting propertyId="p01_5.symbolicname" value="QSPI3_M_RXD(N)"/>
+  <v1:propertySetting propertyId="p00_2.symbolicname" value="TOUT11_OUT"/>
+  <v1:propertySetting propertyId="p01_6.symbolicname" value="QSPI3_M_TXD"/>
+  <v1:configSetting configurationId="p32_3.out.bind" altId="p32_3.out.bind.gpio"/>
+  <v1:configSetting configurationId="p32_2.out.bind" altId="p32_2.out.bind.gpio"/>
+  <v1:configSetting configurationId="p32_2.dir" altId="p32_2.dir.out"/>
+  <v1:configSetting configurationId="p32_3.dir" altId="p32_3.dir.out"/>
+  <v1:propertySetting propertyId="p32_3.symbolicname" value="LED1"/>
+  <v1:propertySetting propertyId="p32_2.symbolicname" value="LED2"/>
+  <v1:configSetting configurationId="p23_7.dir" altId="p23_7.dir.out"/>
+  <v1:configSetting configurationId="p23_7.out.bind" altId="p23_7.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_7.symbolicname" value="LED3"/>
+  <v1:configSetting configurationId="p23_5.dir" altId="p23_5.dir.out"/>
+  <v1:configSetting configurationId="p23_5.out.bind" altId="p23_5.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_5.symbolicname" value="LED4"/>
+  <v1:configSetting configurationId="p22_10.out.bind" altId="p22_10.out.bind.gpio"/>
+  <v1:configSetting configurationId="p22_10.dir" altId="p22_10.dir.out"/>
+  <v1:propertySetting propertyId="p22_10.symbolicname" value="HSD01_EN"/>
+  <v1:configSetting configurationId="p22_11.in.bind" altId="p22_11.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p22_11.symbolicname" value="HSD01_DIAG1"/>
+  <v1:configSetting configurationId="p23_3.in.bind" altId="p23_3.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_3.symbolicname" value="HSD01_DIAG2"/>
+  <v1:configSetting configurationId="p22_5.in.bind" altId="p22_5.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p22_5.symbolicname" value="HSD01_LL"/>
+  <v1:configSetting configurationId="p23_1.out.bind" altId="p23_1.out.bind.gpio"/>
+  <v1:configSetting configurationId="p23_1.dir" altId="p23_1.dir.out"/>
+  <v1:propertySetting propertyId="p23_1.symbolicname" value="HSD02_EN"/>
+  <v1:configSetting configurationId="p23_4.in.bind" altId="p23_4.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_4.symbolicname" value="HSD02_DIAG1"/>
+  <v1:configSetting configurationId="p23_6.in.bind" altId="p23_6.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_6.symbolicname" value="HSD02_DIAG2"/>
+  <v1:configSetting configurationId="p23_2.in.bind" altId="p23_2.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p23_2.symbolicname" value="HSD02_LL"/>
+  <v1:configSetting configurationId="p14_6.in.bind" altId="p14_6.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p14_6.symbolicname" value="PT_A_DBG"/>
+  <v1:configSetting configurationId="p15_4.out.bind" altId="p15_4.out.bind.gpio"/>
+  <v1:configSetting configurationId="p15_4.dir" altId="p15_4.dir.out"/>
+  <v1:propertySetting propertyId="p15_4.symbolicname" value="PT_A_START1"/>
+  <v1:configSetting configurationId="p15_3.dir" altId="p15_3.dir.out"/>
+  <v1:configSetting configurationId="p15_3.out.bind" altId="p15_3.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p15_3.symbolicname" value="PT_A_START2"/>
+  <v1:configSetting configurationId="p15_1.out.bind" altId="p15_1.out.bind.gpio"/>
+  <v1:configSetting configurationId="p15_1.dir" altId="p15_1.dir.out"/>
+  <v1:propertySetting propertyId="p15_1.symbolicname" value="PT_A_START3"/>
+  <v1:configSetting configurationId="p15_5.dir" altId="p15_5.dir.out"/>
+  <v1:configSetting configurationId="p15_5.out.bind" altId="p15_5.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p15_5.symbolicname" value="PT_A_START4"/>
+  <v1:configSetting configurationId="p15_2.dir" altId="p15_2.dir.out"/>
+  <v1:configSetting configurationId="p15_2.out.bind" altId="p15_2.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p15_2.symbolicname" value="PT_A_START5"/>
+  <v1:configSetting configurationId="p15_0.out.bind" altId="p15_0.out.bind.gpio"/>
+  <v1:configSetting configurationId="p15_0.dir" altId="p15_0.dir.out"/>
+  <v1:propertySetting propertyId="p15_0.symbolicname" value="PT_A_START6"/>
+  <v1:configSetting configurationId="p20_9.out.bind" altId="p20_9.out.bind.gpio"/>
+  <v1:configSetting configurationId="p20_9.dir" altId="p20_9.dir.out"/>
+  <v1:propertySetting propertyId="p20_9.symbolicname" value="PT_A_START7"/>
+  <v1:configSetting configurationId="p14_9.dir" altId="p14_9.dir.out"/>
+  <v1:configSetting configurationId="p14_9.out.bind" altId="p14_9.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p14_9.symbolicname" value="PT_A_NRST"/>
+  <v1:configSetting configurationId="p14_0.dir" altId="p14_0.dir.out"/>
+  <v1:configSetting configurationId="p14_0.out.bind" altId="p14_0.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p14_0.symbolicname" value="PT_A_DRVEN"/>
+  <v1:configSetting configurationId="p10_4.out.bind" altId="p10_4.out.bind.alt3">
+    <v1:connectionSetting altId="qspi1_m.sel8.bind.sel8"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi1_m.sel8.bind" altId="qspi1_m.sel8.bind.sel8">
+    <v1:connectionSetting altId="p10_4.out.bind.alt3"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_2.dir" altId="p10_2.dir.out"/>
+  <v1:configSetting configurationId="p10_3.dir" altId="p10_3.dir.out"/>
+  <v1:configSetting configurationId="p10_1.in.bind" altId="p10_1.in.bind.in">
+    <v1:connectionSetting altId="qspi1_m.rxdn.bind.rxd0"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi1_m.txd.bind" altId="qspi1_m.txd.bind.out">
+    <v1:connectionSetting altId="p10_3.out.bind.alt3"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_2.out.bind" altId="p10_2.out.bind.alt3">
+    <v1:connectionSetting altId="qspi1_m.clk.bind.clk"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_3.out.bind" altId="p10_3.out.bind.alt3">
+    <v1:connectionSetting altId="qspi1_m.txd.bind.out"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p10_4.dir" altId="p10_4.dir.out"/>
+  <v1:configSetting configurationId="qspi1_m.clk.bind" altId="qspi1_m.clk.bind.clk">
+    <v1:connectionSetting altId="p10_2.out.bind.alt3"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="qspi1_m.rxdn.bind" altId="qspi1_m.rxdn.bind.rxd0">
+    <v1:connectionSetting altId="p10_1.in.bind.in"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p10_3.symbolicname" value="QSPI1_M_TXD"/>
+  <v1:propertySetting propertyId="p10_2.symbolicname" value="QSPI1_M_CLK"/>
+  <v1:propertySetting propertyId="p10_1.symbolicname" value="QSPI1_M_RXD(N)"/>
+  <v1:propertySetting propertyId="p10_4.symbolicname" value="QSPI1_M_SEL8"/>
+  <v1:configSetting configurationId="p22_1.dir" altId="p22_1.dir.out"/>
+  <v1:configSetting configurationId="p22_1.out.bind" altId="p22_1.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p22_1.symbolicname" value="PT_B_NRST"/>
+  <v1:configSetting configurationId="p22_3.in.bind" altId="p22_3.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p22_3.symbolicname" value="PT_B_DBG"/>
+  <v1:configSetting configurationId="p33_12.dir" altId="p33_12.dir.out"/>
+  <v1:configSetting configurationId="p33_12.out.bind" altId="p33_12.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p33_12.symbolicname" value="PT_B_START1"/>
+  <v1:configSetting configurationId="p33_13.dir" altId="p33_13.dir.out"/>
+  <v1:configSetting configurationId="p33_13.out.bind" altId="p33_13.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p33_13.symbolicname" value="PT_B_START2"/>
+  <v1:configSetting configurationId="p33_15.out.bind" altId="p33_15.out.bind.gpio"/>
+  <v1:configSetting configurationId="p33_15.dir" altId="p33_15.dir.out"/>
+  <v1:propertySetting propertyId="p33_15.symbolicname" value="PT_B_START3"/>
+  <v1:configSetting configurationId="p33_10.out.bind" altId="p33_10.out.bind.gpio"/>
+  <v1:configSetting configurationId="p33_10.dir" altId="p33_10.dir.out"/>
+  <v1:propertySetting propertyId="p33_10.symbolicname" value="PT_B_START4"/>
+  <v1:configSetting configurationId="p33_11.out.bind" altId="p33_11.out.bind.gpio"/>
+  <v1:configSetting configurationId="p33_11.dir" altId="p33_11.dir.out"/>
+  <v1:propertySetting propertyId="p33_11.symbolicname" value="PT_B_START5"/>
+  <v1:configSetting configurationId="p33_4.dir" altId="p33_4.dir.out"/>
+  <v1:configSetting configurationId="p33_4.out.bind" altId="p33_4.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p33_4.symbolicname" value="PT_B_START6"/>
+  <v1:configSetting configurationId="p33_6.dir" altId="p33_6.dir.out"/>
+  <v1:configSetting configurationId="p33_6.out.bind" altId="p33_6.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p33_6.symbolicname" value="PT_B_START7"/>
+  <v1:configSetting configurationId="p33_14.dir" altId="p33_14.dir.out"/>
+  <v1:configSetting configurationId="p33_14.out.bind" altId="p33_14.out.bind.gpio"/>
+  <v1:propertySetting propertyId="p33_14.symbolicname" value="PT_B_DRVEN"/>
+</v1:pinSettings>
