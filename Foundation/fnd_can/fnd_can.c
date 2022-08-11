@@ -88,8 +88,10 @@ void fnd_can_init(void)
     nodeConfig.frame.type = IfxCan_FrameType_transmitAndReceive;
     nodeConfig.baudRate.baudrate = 500000;
 
-    nodeConfig.txConfig.txMode = IfxCan_TxMode_dedicatedBuffers;
+    // nodeConfig.txConfig.txMode = IfxCan_TxMode_dedicatedBuffers;
+    nodeConfig.txConfig.txMode = IfxCan_TxMode_fifo;
     nodeConfig.txConfig.txBufferDataFieldSize = IfxCan_DataFieldSize_8;
+    nodeConfig.txConfig.txFifoQueueSize = 32;
 
     nodeConfig.rxConfig.rxMode = IfxCan_RxMode_fifo0;
     nodeConfig.rxConfig.rxFifo0DataFieldSize = IfxCan_DataFieldSize_8;
@@ -141,9 +143,11 @@ void transmitCanMessage(void)
     }
 }
 
+uint32 can_error_cnt = 0;
+
 unsigned char canSend(CAN_PORT notused, Message *msg)
 {
-    uint8_t mbox;
+    uint8_t result = 0;
 
     IfxCan_Message tx_msg;
     IfxCan_Can_initMessage(&tx_msg);
@@ -154,5 +158,10 @@ unsigned char canSend(CAN_PORT notused, Message *msg)
     g_mcmcan.txData[0] = (((uint32_t)msg->data[3]) << 24) + (((uint32_t)msg->data[2]) << 16) + (((uint32_t)msg->data[1]) << 8) + msg->data[0];
     g_mcmcan.txData[1] = (((uint32_t)msg->data[7]) << 24) + (((uint32_t)msg->data[6]) << 16) + (((uint32_t)msg->data[5]) << 8) + msg->data[4];
 
-    return IfxCan_Can_sendMessage(&g_mcmcan.canNode, &tx_msg, &g_mcmcan.txData[0]) == IfxCan_Status_ok ? 0 : 1;
+    result = IfxCan_Can_sendMessage(&g_mcmcan.canNode, &tx_msg, &g_mcmcan.txData[0]) == IfxCan_Status_ok ? 0 : 1;
+    if (result == 1)
+    {
+        can_error_cnt++;
+    }
+    return result;
 }

@@ -24,5 +24,7 @@ extern UNS16 inj_dur_5a;		/* Mapped at index 0x2008, subindex 0x00*/
 extern UNS16 inj_dur_5b;		/* Mapped at index 0x2009, subindex 0x00*/
 extern UNS16 inj_dur_6a;		/* Mapped at index 0x200A, subindex 0x00*/
 extern UNS16 inj_dur_6b;		/* Mapped at index 0x200B, subindex 0x00*/
+extern UNS8 inj_enable;		/* Mapped at index 0x200C, subindex 0x00*/
+extern UNS8 sync_status;		/* Mapped at index 0x200D, subindex 0x00*/
 
 #endif // OBJDICT_H

@@ -26,25 +26,25 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 //#define WD_SLEEP
 // Needed defines by Atmel lib
-#define FOSC 8000 // 8 MHz External cristal
-#ifndef F_CPU
-#define F_CPU (1000UL * FOSC) // Need for AVR GCC
-#endif
-#define CAN_BAUDRATE 125
+// #define FOSC 8000 // 8 MHz External cristal
+// #ifndef F_CPU
+// #define F_CPU (1000UL * FOSC) // Need for AVR GCC
+// #endif
+// #define CAN_BAUDRATE 125
 
 // Needed defines by Canfestival lib
-#define MAX_CAN_BUS_ID 1
+// #define MAX_CAN_BUS_ID 1
 #define SDO_MAX_LENGTH_TRANSFER 32
 #define SDO_BLOCK_SIZE 16
 #define SDO_MAX_SIMULTANEOUS_TRANSFERS 1
 #define NMT_MAX_NODE_ID 128
 #define SDO_TIMEOUT_MS 3000U
-#define MAX_NB_TIMER 8
+#define MAX_NB_TIMER 64
 
 // CANOPEN_BIG_ENDIAN is not defined
-#define CANOPEN_LITTLE_ENDIAN 1
+// #define CANOPEN_LITTLE_ENDIAN 1
 
-#define US_TO_TIMEVAL_FACTOR 8
+// #define US_TO_TIMEVAL_FACTOR 8
 
 #define REPEAT_SDO_MAX_SIMULTANEOUS_TRANSFERS_TIMES(repeat) \
     repeat

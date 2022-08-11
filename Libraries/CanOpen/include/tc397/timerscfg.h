@@ -37,7 +37,11 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //#define US_TO_TIMEVAL(us) (us>>2)
 
 // The timer is incrementing every 10 us.
-#define MS_TO_TIMEVAL(ms) ((ms)*10)
-#define US_TO_TIMEVAL(us) ((us) / 100)
+// #define MS_TO_TIMEVAL(ms) (((ms)*100000) >> 4)
+// #define US_TO_TIMEVAL(us) ((UNS32)(((us)*100) >> 4))
+
+// change 16 to 22 to compensate the canopen process time cost
+#define MS_TO_TIMEVAL(ms) ((UNS32)(((ms)*100000) / 22))
+#define US_TO_TIMEVAL(us) ((UNS32)(((us)*100) / 22))
 
 #endif
