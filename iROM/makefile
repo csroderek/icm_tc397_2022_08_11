@@ -111,8 +111,12 @@ RM := rm -rf
 -include Libraries/FreeRTOS/portable/TriCore/subdir.mk
 -include Libraries/FreeRTOS/portable/MemMang/subdir.mk
 -include Libraries/FreeRTOS/subdir.mk
+-include Libraries/CanOpen/src/subdir.mk
+-include Libraries/CanOpen/objdict/subdir.mk
 -include Libraries/subdir.mk
+-include Foundation/fnd_stm1/subdir.mk
 -include Foundation/fnd_led/subdir.mk
+-include Foundation/fnd_can/subdir.mk
 -include Configurations/Debug/subdir.mk
 -include Configurations/subdir.mk
 -include subdir.mk

@@ -34,20 +34,19 @@
 
 #include "fnd_led.h"
 
-
-IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
+IFX_ALIGN(4)
+IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
 uint32 main_task_cnt = 0;
 
 void main_task(void *arg)
 {
-	while (1)
-	{
-		main_task_cnt++;
-		vTaskDelay(1000);
-	}
+    while (1)
+    {
+        main_task_cnt++;
+        vTaskDelay(1000);
+    }
 }
-
 
 void core0_main(void)
 {
@@ -63,15 +62,14 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
-	gpio_init_pins();
+    gpio_init_pins();
 
-	xTaskCreate(main_task, "main_task", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
-	xTaskCreate(fnd_led_test_task, "fnd_led_test_task", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, NULL);
+    xTaskCreate(main_task, "main_task", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
+    xTaskCreate(fnd_led_test_task, "fnd_led_test_task", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, NULL);
 
-	vTaskStartScheduler();
+    vTaskStartScheduler();
 
-    while(1)
+    while (1)
     {
     }
 }
-

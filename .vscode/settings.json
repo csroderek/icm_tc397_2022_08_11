@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "fnd_pt2000.h": "c",
+    "bsp.h": "c",
+    "fnd_gtm.h": "c",
+    "ifxgtm_pinmap.h": "c",
+    "ifx_types.h": "c",
+    "ifxsrc_reg.h": "c",
+    "ifxport_pinmap.h": "c",
+    "mid_fuel_injection.h": "c",
+    "aurix_pin_mappings.h": "c",
+    "ifxport.h": "c",
+    "canfestival.h": "c",
+    "xutility": "c",
+    "can.h": "c",
+    "data.h": "c",
+    "objdict.h": "c",
+    "timerscfg.h": "c"
+  }
+}
